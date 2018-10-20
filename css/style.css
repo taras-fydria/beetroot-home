@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:700|Roboto:300,400,500");
+
+body {
+  font: 300 17px/1.47 Roboto, sans-serif;
+  color: rgba(60, 57, 53, 0.8);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3d3935;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 19px;
+}
+
+h5,
+h6 {
+  font-size: 17px;
+}
+
+a {
+  text-decoration: none;
+  color: #bc204b;
+}
+
+a:hover,
+a:active {
+  color: #f1b828;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 1230px;
+}
+
+.ba-container--small {
+  max-width: 830px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+}
+
+textarea {
+}
+
+.ba-header-bar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ba-hide {
+  display: none;
+}
+
+.ba-intro {
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+
+  position: relative;
+  overflow: hidden;
+}
+
+.ba-intro:before {
+  background: linear-gradient(
+    to top,
+    rgba(147, 45, 95, 0.8),
+    rgba(172, 7, 52, 0.8)
+  );
+
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.ba-intro__body {
+  padding: 100px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.ba-page-title {
+  text-align: center;
+  margin: 0 0 15px;
+}
+
+.ba-page-subtitle {
+  font-weight: 300;
+  text-align: center;
+  margin: 0 0 45px;
+}
+
+.ba-intro h1,
+.ba-intro h2,
+.ba-intro h3,
+.ba-intro h4,
+.ba-intro h5,
+.ba-intro h6 {
+  color: #fff;
+}
+
+.ba-project-link {
+  color: #fff;
+  display: flex;
+}
+
+.ba-project-link svg {
+  flex-shrink: 0;
+}
+
+.ba-project-link:hover {
+  color: rgba(225, 225, 225, 0.5);
+}
+
+.ba-project-link__body {
+  padding-left: 16px;
+}
+
+.ba-project-link__title {
+  margin: 0;
+  font-size: 17px;
+}
+
+.ba-read-more {
+  color: #f1b828;
+  transition: color 0.2s, opacity 0.2s;
+  display: inline-flex;
+  align-items: center;
+}
+
+.ba-read-more:hover {
+  color: #fff;
+}
+
+.ba-read-more svg {
+  margin-left: 10px;
+}
+
+.ba-read-more--wp {
+  color: #489fdf;
+}
+
+/* FOOTER */
+.ba-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.ba-description__left {
+  display: flex;
+  align-items: center;
+  /* display: inline-flex; */
+}
+
+.ba-left__first,
+.ba-left__second {
+  color: rgba(60, 57, 53, 1);
+  font-size: 40.76px;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.ba-left__third {
+  font-family: Roboto;
+  color: rgba(60, 57, 53, 1);
+  font-size: 11.91px;
+  font-weight: 300;
+}
+
+.ba-left__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.ba-description__mid {
+  font-family: Roboto;
+  color: rgba(60, 57, 53, 1);
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.ba-description__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ba-description__button {
+  font-family: Roboto;
+  color: rgba(188, 32, 75, 1);
+  font-size: 16px;
+  font-weight: 300;
+  border: 1px solid #bc204b;
+  border-radius: 20px;
+  width: 95px;
+  height: 46px;
+  line-height: 1;
+  padding: 16px 15px;
+  text-align: center;
+}
+.ba-description__button:hover {
+  background-color: rgba(188, 32, 75, 1);
+  color: #fff;
+}
+
+.ba-footer {
+  background-color: #f4f4f1;
+  padding-bottom: 120px;
+  padding-top: 100px;
+}
+
+.ba-footer__img {
+  margin-bottom: 24px;
+}
+
+.ba-footer__subtitle {
+  ont-family: Roboto;
+  color: rgba(60, 57, 53, 0.5);
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+
+.ba-footer__subtitle::before {
+  content: url(../img/ring.svg);
+  display: inline-block;
+}
+
+.ba-footer__title {
+  font-family: Roboto;
+  color: #3d3935;
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.ba-footer__text {
+  font-family: Roboto;
+  color: #3c3935;
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.ba-col-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.ba-footer__read-more a {
+  text-align: center;
+}
+.ba-footer__read-more .ba-read-more {
+  color: #489fdf;
+}
+.ba-footer__read-more .ba-read-more:hover {
+  color: #f1b828;
+}

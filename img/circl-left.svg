@@ -1,0 +1,31 @@
+<svg id="circl-left.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46.031" viewBox="0 0 46 46.031">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e3e3dd;
+        fill-opacity: 0;
+        stroke: #3d3935;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        opacity: 0.3;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #cacaca;
+        opacity: 0.6;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1090" y="854" width="18.03" height="12" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#3d3935"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Shape_34_copy_16" data-name="Shape 34 copy 16" class="cls-1" d="M1098.4,837.634c-10.18.129-22.51,6.045-22.91,21.864s10.58,23.274,23.71,23.151a1.3,1.3,0,0,1-.24-0.043c12.88-.617,21.99-7.66,21.53-23.879-0.38-13.446-11.53-20.513-22.18-21.061C1097.76,837.638,1098.95,837.627,1098.4,837.634Z" transform="translate(-1075 -837.125)"/>
+  <path id="Shape_46_copy" data-name="Shape 46 copy" class="cls-2" d="M1097.28,865.3c0.42,0.538-.32,1.024-0.74.485a69.321,69.321,0,0,0-6.06-5.059c-0.33-.231-0.68-0.572-0.35-0.957,1.47-1.014,5.16-4.478,6.41-5.632,0.5-.385,1.18.1,0.68,0.559-3.55,3.314-6.07,5.637-6.48,5.405a50.471,50.471,0,0,1,6.54,5.2l-6.65-4.828c6.65,0.77,10.23-.461,16.88-0.461,0.66,0,.66-0.781,0-0.858-6.65,0-10.31,1.232-16.88.539-0.66-.077-0.66.7,0,0.78" transform="translate(-1075 -837.125)"/>
+</svg>
